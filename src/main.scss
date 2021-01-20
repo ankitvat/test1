@@ -1,0 +1,178 @@
+@import "./fonts/fonts.css";
+$font2: "American Typewriter";
+$blue: #4286f4;
+$red: #b5330b;
+$yellow: #cc9600;
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .BMC {
+    display: flex;
+    flex-direction: row;
+
+    .BMC-img {
+      width: 10%;
+      height: 10%;
+      margin-left: 20%;
+      margin-top: 10%;
+    }
+
+    .card {
+      width: 20%;
+      height: 60%;
+      background: white;
+      font-family: $font2;
+      border-radius: 15px;
+      border: 2px solid $blue;
+      margin-left: 5%;
+      margin-top: 8%;
+
+      .section {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+          margin-left: 5%;
+        }
+      }
+      .section2 {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+        }
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+  .factory {
+    display: flex;
+    flex-direction: row;
+
+    .plant {
+      width: 10%;
+      height: 10%;
+      margin-left: 55%;
+      margin-top: -20%;
+    }
+    .card2 {
+      width: 20%;
+      height: 60%;
+      background: white;
+      font-family: $font2;
+      border-radius: 15px;
+      border: 2px solid $red;
+      margin-left: 4%;
+      margin-top: -22%;
+      .section3 {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+          margin-left: 5%;
+        }
+      }
+      .section4 {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+        }
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .warehouse {
+    display: flex;
+    flex-direction: row;
+    .dispatch {
+      width: 10%;
+      height: 10%;
+      margin-left: 20%;
+      margin-top: -15%;
+    }
+    .card3 {
+      width: 20%;
+      height: 60%;
+      background: white;
+      font-family: $font2;
+      border-radius: 15px;
+      border: 2px solid $yellow;
+      margin-left: 4%;
+      margin-top: -18%;
+      .section5 {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+          margin-left: 5%;
+        }
+      }
+      .section6 {
+        display: flex;
+        p {
+          padding: 2%;
+          padding-left: 8%;
+          font-weight: 600;
+        }
+        ul {
+          list-style: none;
+          margin-top: 4.5%;
+        }
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .progress-icon {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+  }
+  .progress-icon2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: -10%;
+  }
+}
