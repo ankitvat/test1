@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/test1/static/css/main.bfe7accd.chunk.css",
+    "main.js": "/test1/static/js/main.5a52decf.chunk.js",
+    "main.js.map": "/test1/static/js/main.5a52decf.chunk.js.map",
+    "runtime-main.js": "/test1/static/js/runtime-main.4fafa4c1.js",
+    "runtime-main.js.map": "/test1/static/js/runtime-main.4fafa4c1.js.map",
+    "static/js/2.34c78405.chunk.js": "/test1/static/js/2.34c78405.chunk.js",
+    "static/js/2.34c78405.chunk.js.map": "/test1/static/js/2.34c78405.chunk.js.map",
+    "static/js/3.3d5e6e80.chunk.js": "/test1/static/js/3.3d5e6e80.chunk.js",
+    "static/js/3.3d5e6e80.chunk.js.map": "/test1/static/js/3.3d5e6e80.chunk.js.map",
+    "index.html": "/test1/index.html",
+    "static/css/main.bfe7accd.chunk.css.map": "/test1/static/css/main.bfe7accd.chunk.css.map",
+    "static/js/2.34c78405.chunk.js.LICENSE.txt": "/test1/static/js/2.34c78405.chunk.js.LICENSE.txt",
+    "static/media/facts.scss": "/test1/static/media/HKGrotesk-Medium.78037f1c.otf",
+    "static/media/factory.cd844593.svg": "/test1/static/media/factory.cd844593.svg",
+    "static/media/logo.06af865d.webp": "/test1/static/media/logo.06af865d.webp",
+    "static/media/milkbox.0109d595.svg": "/test1/static/media/milkbox.0109d595.svg",
+    "static/media/plant.f2e702b0.svg": "/test1/static/media/plant.f2e702b0.svg",
+    "static/media/warehouse.152715e7.svg": "/test1/static/media/warehouse.152715e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fafa4c1.js",
+    "static/js/2.34c78405.chunk.js",
+    "static/css/main.bfe7accd.chunk.css",
+    "static/js/main.5a52decf.chunk.js"
+  ]
+}
