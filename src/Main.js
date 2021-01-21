@@ -43,7 +43,7 @@ export default function Main() {
         <motion.path
           fill="none"
           strokeWidth="1"
-          stroke="green"
+          stroke="black"
           strokeDasharray="0 1"
           d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
           style={{
@@ -81,7 +81,7 @@ export default function Main() {
         <motion.path
           fill="none"
           strokeWidth="1"
-          stroke="green"
+          stroke="black"
           strokeDasharray="0 1"
           d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
           style={{

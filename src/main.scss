@@ -19,6 +19,18 @@ $yellow: #cc9600;
       height: 10%;
       margin-left: 20%;
       margin-top: 10%;
+
+      @include txl {
+        width: 9%;
+        height: 9%;
+        margin-top: 10%;
+        margin-left: 10%;
+      }
+      @include lg {
+        width: 14%;
+        height: 14%;
+        margin-top: 12%;
+      }
     }
 
     .card {
@@ -28,8 +40,23 @@ $yellow: #cc9600;
       font-family: $font2;
       border-radius: 15px;
       border: 2px solid $blue;
-      margin-left: 5%;
+      margin-left: 3%;
       margin-top: 8%;
+
+      @include txl {
+        width: 20%;
+        height: 30%;
+      }
+
+      @include lg {
+        width: 24%;
+        height: 25%;
+      }
+
+      @include md {
+        width: 28%;
+        height: 20%;
+      }
 
       .section {
         display: flex;
@@ -37,29 +64,64 @@ $yellow: #cc9600;
           padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            padding-left: 10%;
+
+            @include md {
+              font-size: 12px;
+              margin-top: 5%;
+            }
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
           margin-left: 5%;
+
+          @include lg {
+            margin-left: 1%;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
       }
       .section2 {
         display: flex;
         p {
-          padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            margin-left: 2%;
+          }
+          @include md {
+            font-size: 12px;
+            margin-top: 5%;
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
+
+          @include lg {
+            margin-left: 7%;
+            width: 100%;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
       }
 
       h1 {
         text-align: center;
         font-weight: 600;
+
+        @include md {
+          font-size: 22px;
+        }
       }
     }
   }
@@ -72,6 +134,11 @@ $yellow: #cc9600;
       height: 10%;
       margin-left: 55%;
       margin-top: -20%;
+      @include lg {
+        width: 14%;
+        height: 14%;
+        margin-left: 45%;
+      }
     }
     .card2 {
       width: 20%;
@@ -82,17 +149,42 @@ $yellow: #cc9600;
       border: 2px solid $red;
       margin-left: 4%;
       margin-top: -22%;
+
+      @include lg {
+        width: 24%;
+        height: 25%;
+      }
+      @include md {
+        width: 28%;
+        height: 20%;
+      }
       .section3 {
         display: flex;
         p {
           padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            margin-left: 8%;
+            width: 100%;
+            padding: 0;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
           margin-left: 5%;
+          @include lg {
+            margin-left: 4%;
+            width: 100%;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
       }
       .section4 {
@@ -101,16 +193,35 @@ $yellow: #cc9600;
           padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            margin-left: 8%;
+            width: 100%;
+            padding: 0;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
+          @include lg {
+            margin-left: 5%;
+            width: 100%;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
       }
 
       h1 {
         text-align: center;
         font-weight: 600;
+        @include md {
+          font-size: 22px;
+        }
       }
     }
   }
@@ -118,11 +229,20 @@ $yellow: #cc9600;
   .warehouse {
     display: flex;
     flex-direction: row;
+
+    @include lg {
+      margin-left: -14%;
+      margin-top: 5%;
+    }
     .dispatch {
       width: 10%;
       height: 10%;
       margin-left: 20%;
       margin-top: -15%;
+      @include lg {
+        width: 14%;
+        height: 14%;
+      }
     }
     .card3 {
       width: 20%;
@@ -133,17 +253,41 @@ $yellow: #cc9600;
       border: 2px solid $yellow;
       margin-left: 4%;
       margin-top: -18%;
+      @include lg {
+        width: 24%;
+        height: 25%;
+      }
+      @include md {
+        width: 25%;
+        height: 20%;
+      }
       .section5 {
         display: flex;
         p {
           padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            margin-left: 8%;
+            width: 100%;
+            padding: 0;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
           margin-left: 5%;
+          @include lg {
+            margin-left: 5%;
+            width: 100%;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
       }
       .section6 {
@@ -152,16 +296,33 @@ $yellow: #cc9600;
           padding: 2%;
           padding-left: 8%;
           font-weight: 600;
+          @include lg {
+            font-size: 14px;
+            margin-left: 8%;
+            width: 100%;
+            padding: 0;
+          }
+          @include md {
+            font-size: 12px;
+          }
         }
         ul {
           list-style: none;
           margin-top: 4.5%;
+          width: 100%;
+          margin-left: 5.5%;
+        }
+        @include md {
+          font-size: 12px;
         }
       }
 
       h1 {
         text-align: center;
         font-weight: 600;
+        @include md {
+          font-size: 22px;
+        }
       }
     }
   }
