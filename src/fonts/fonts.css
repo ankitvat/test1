@@ -12,3 +12,8 @@
   font-family: "Circular";
   src: url("./CircularStd-Black.otf");
 }
+
+@font-face {
+  font-family: "Corsica";
+  src: url("./CorsicaSX-SemiBold.ttf");
+}

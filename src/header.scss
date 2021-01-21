@@ -1,5 +1,6 @@
 @import "./fonts/fonts.css";
-
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/variables.scss";
 $font: "Circular Black";
 $font2: "American Typewriter";
 
@@ -12,11 +13,30 @@ $font2: "American Typewriter";
     display: flex;
     margin-left: 55%;
     margin-top: 3%;
-    font-size: clamp(1rem, 4vw, 2rem);
+    font-size: clamp(1rem, 1.5vw, 2rem);
+
+    @include txl {
+      margin-left: 18%;
+    }
+
+    @include lg {
+      margin-left: 13%;
+      margin-top: 4.5%;
+    }
   }
 }
 
 .logo {
   display: flex;
   margin: 2em;
+
+  @include lg {
+    width: 10%;
+    height: 10%;
+  }
+
+  @include md {
+    width: 10%;
+    height: 10%;
+  }
 }

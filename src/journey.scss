@@ -1,5 +1,7 @@
 @import "./fonts/fonts.css";
 $font2: "American Typewriter";
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/variables.scss";
 
 .journey {
   display: flex;

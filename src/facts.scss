@@ -1,7 +1,11 @@
 @import "./fonts/fonts.css";
-$font2: "American Typewriter";
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/variables.scss";
+
+$font2: "Corsica";
 $font1: "Circular";
 $font3: "HK-Grotesk";
+$lightblack: rgb(54, 60, 76);
 .facts {
   display: flex;
   flex-direction: row;
@@ -15,10 +19,18 @@ $font3: "HK-Grotesk";
   }
 
   .download-btn {
-    width: 250px;
+    width: 350px;
     height: 50px;
     margin-top: 40%;
-    margin-left: -16%;
+    margin-left: -19%;
+    background: none;
+
+    font-family: $font2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $lightblack;
+    border: 2px solid $lightblack;
+    box-shadow: rgb(54, 60, 76) 0px 0px 0px 2px inset;
   }
 
   .cards {
@@ -39,6 +51,16 @@ $font3: "HK-Grotesk";
       background: #ed213a;
       border-radius: 20px;
       text-align: center;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.8rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
     .f2 {
       width: 200px;
@@ -48,6 +70,16 @@ $font3: "HK-Grotesk";
       text-align: center;
 
       margin-left: 30px;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.6rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
   }
   .section2 {
@@ -61,6 +93,16 @@ $font3: "HK-Grotesk";
       background: #4286f4;
       border-radius: 20px;
       text-align: center;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.6rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
     .f4 {
       width: 200px;
@@ -69,6 +111,16 @@ $font3: "HK-Grotesk";
       border-radius: 20px;
       text-align: center;
       margin-left: 30px;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.6rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
   }
 
@@ -83,6 +135,16 @@ $font3: "HK-Grotesk";
       background: #52c234;
       border-radius: 20px;
       text-align: center;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.6rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
 
     .f6 {
@@ -92,6 +154,16 @@ $font3: "HK-Grotesk";
       border-radius: 20px;
       text-align: center;
       margin-left: 30px;
+      h1 {
+        color: #000;
+        font-size: clamp(0.5rem, 3vw, 1.6rem);
+        margin-top: 30px;
+      }
+      p {
+        font-size: clamp(0.4rem, 2vw, 1.2rem);
+        color: black;
+        margin-top: 30px;
+      }
     }
   }
 }
