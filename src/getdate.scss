@@ -22,4 +22,18 @@ $lightblack: rgb(54, 60, 76);
     padding-bottom: 5px;
     text-align: center;
   }
+
+  .tabs {
+    margin-left: 10%;
+    margin-top: -0.5%;
+
+    .a2 {
+      background: none;
+      border: 1px solid $lightblack;
+    }
+    .b2 {
+      background: none;
+      border: 1px solid $lightblack;
+    }
+  }
 }

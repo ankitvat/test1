@@ -14,6 +14,7 @@ $lightblack: rgb(54, 60, 76);
     display: flex;
     flex-direction: column;
     margin-top: -15%;
+    margin-left: 5%;
   }
 
   .Milk {
@@ -52,6 +53,10 @@ $lightblack: rgb(54, 60, 76);
     flex-direction: column;
     margin-left: 20%;
     margin-top: 10%;
+
+    @include sm {
+      margin-left: 18%;
+    }
   }
 
   .section1 {
