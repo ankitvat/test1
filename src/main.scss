@@ -9,6 +9,55 @@ $yellow: #cc9600;
   display: flex;
   flex-direction: column;
   width: 100%;
+  .left-arrow {
+    width: 100%;
+    display: flex;
+    margin-left: 45%;
+
+    animation: animates 3s infinite;
+
+    .left-img {
+      width: 8%;
+      height: 8%;
+      @keyframes animates {
+        0% {
+          transform: translate(0px);
+        }
+        50% {
+          transform: translate(-50px, 50px);
+        }
+
+        100% {
+          transform: translate(0px);
+        }
+      }
+    }
+  }
+  .right-arrow {
+    width: 100%;
+    display: flex;
+    margin-left: 42%;
+    margin-top: 6%;
+
+    .right-img {
+      width: 8%;
+      height: 8%;
+      animation: animate 3s infinite;
+
+      @keyframes animate {
+        0% {
+          transform: translate(0px);
+        }
+        50% {
+          transform: translate(50px, 50px);
+        }
+
+        100% {
+          transform: translate(0px);
+        }
+      }
+    }
+  }
 
   .BMC {
     display: flex;
@@ -128,7 +177,7 @@ $yellow: #cc9600;
   .factory {
     display: flex;
     flex-direction: row;
-
+    margin-top: 28%;
     .plant {
       width: 10%;
       height: 10%;
@@ -229,7 +278,7 @@ $yellow: #cc9600;
   .warehouse {
     display: flex;
     flex-direction: row;
-
+    margin-top: 28%;
     @include lg {
       margin-left: -14%;
       margin-top: 5%;

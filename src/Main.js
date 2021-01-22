@@ -1,21 +1,12 @@
 import * as React from "react";
 
-import {
-  motion,
-  useViewportScroll,
-  useSpring,
-  useTransform,
-} from "framer-motion";
 import "./main.scss";
 import plant from "./icons/plant.svg";
 import factory from "./icons/factory.svg";
 import warehouse from "./icons/warehouse.svg";
+import right from "./icons/right.svg";
+import left from "./icons/left.svg";
 export default function Main() {
-  const { scrollYProgress } = useViewportScroll();
-  const yRange = useTransform(scrollYProgress, [0, 1], [0, 1]);
-
-  const pathLength = useSpring(yRange, { stiffness: 400, damping: 90 });
-
   return (
     <div className="hero">
       <div className="BMC">
@@ -39,22 +30,9 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <svg className="progress-icon" viewBox="0 0 80 80">
-        <motion.path
-          fill="none"
-          strokeWidth="1"
-          stroke="black"
-          strokeDasharray="0 1"
-          d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
-          style={{
-            pathLength,
-            rotate: 90,
-            translateX: 5,
-            translateY: 5,
-            scaleX: -1,
-          }}
-        />
-      </svg>
+      <div className="right-arrow">
+        <img src={right} className="right-img" alt="right-img" />
+      </div>
 
       <div className="factory">
         <img src={factory} className="plant" alt="plant" />
@@ -77,22 +55,10 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <svg className="progress-icon2" viewBox="0 0 80 80">
-        <motion.path
-          fill="none"
-          strokeWidth="1"
-          stroke="black"
-          strokeDasharray="0 1"
-          d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
-          style={{
-            pathLength,
-            rotate: 90,
-            translateX: 5,
-            translateY: 5,
-            scaleX: -1,
-          }}
-        />
-      </svg>
+      <div className="left-arrow">
+        <img src={left} className="left-img" alt="left-img" />
+      </div>
+
       <div className="warehouse">
         <img src={warehouse} className="dispatch" alt="warehouse " />
         <div className="card3">
