@@ -10,12 +10,20 @@ $lightblack: rgb(54, 60, 76);
   display: flex;
   flex-direction: row;
   font-family: $font1;
+  @include sm {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15%;
+  }
 
   .Milk {
     margin-left: 20%;
     margin-top: 20%;
     width: 15%;
     height: 15%;
+    @include sm {
+      display: none;
+    }
   }
 
   .download-btn {
@@ -31,6 +39,12 @@ $lightblack: rgb(54, 60, 76);
     color: $lightblack;
     border: 2px solid $lightblack;
     box-shadow: rgb(54, 60, 76) 0px 0px 0px 2px inset;
+
+    @include sm {
+      width: 300px;
+      margin-left: 10%;
+      font-size: 12px;
+    }
   }
 
   .cards {
@@ -51,6 +65,11 @@ $lightblack: rgb(54, 60, 76);
       background: #ed213a;
       border-radius: 20px;
       text-align: center;
+
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.8rem);
@@ -70,6 +89,10 @@ $lightblack: rgb(54, 60, 76);
       text-align: center;
 
       margin-left: 30px;
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.6rem);
@@ -93,6 +116,10 @@ $lightblack: rgb(54, 60, 76);
       background: #4286f4;
       border-radius: 20px;
       text-align: center;
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.6rem);
@@ -111,6 +138,10 @@ $lightblack: rgb(54, 60, 76);
       border-radius: 20px;
       text-align: center;
       margin-left: 30px;
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.6rem);
@@ -135,6 +166,10 @@ $lightblack: rgb(54, 60, 76);
       background: #52c234;
       border-radius: 20px;
       text-align: center;
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.6rem);
@@ -154,6 +189,10 @@ $lightblack: rgb(54, 60, 76);
       border-radius: 20px;
       text-align: center;
       margin-left: 30px;
+      @include sm {
+        width: 100px;
+        height: 100px;
+      }
       h1 {
         color: #000;
         font-size: clamp(0.5rem, 3vw, 1.6rem);

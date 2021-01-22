@@ -8,6 +8,7 @@ export default function GetDate() {
   return (
     <div className="datepicker">
       <DatePicker
+        className="box"
         selected={startDate}
         onChange={(date) => setStartDate(date)}
       />
